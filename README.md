@@ -1,7 +1,7 @@
 # cpaux
 ## Checkpoint firewall API helper
 
-Checkpoint management API is a bit tricky to get the info as organized as in "smart console".  Management API v1.8.
+Checkpoint management API is a bit tricky to get the info organized as in "smart console".  Management API v1.8.
 
 This project connects to management server and build a easily readable json output from access rules inside witch are in specific rulebase. Useful to let devops team aware about the current rules.
 
