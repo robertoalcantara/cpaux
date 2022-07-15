@@ -5,7 +5,7 @@ Checkpoint management API is a bit tricky to get the info as organized as in "sm
 
 This project connects to management server and build a easily readable json output from access rules inside witch are in specific rulebase. Useful to let devops team aware about the current rules.
 
-Python objects area created to mimic ruleset objects (security zones, user groups, groups, etc.) and allow easy interaction with them.  For now only read-only but is should be easy make them writeable if you want.  Please dont expose this service without extra checks, designed to run in out-of-band network.
+Python objects area created to mimic ruleset objects (security zones, user groups, groups, etc.) and allows easy interaction with them.  For now only read-only but is should be easy make them writeable if you want.  Please dont expose this service without extra checks, designed to run in out-of-band network.
 
 Requires two files on same directory to keys (check CPRulesWeb.py).
 - .webkey.txt  -> key to access the builtin webserver and get the info
