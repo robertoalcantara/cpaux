@@ -1,5 +1,5 @@
 # cpaux
-Checkpoint firewall API helper
+## Checkpoint firewall API helper
 
 Checkpoint management API is a bit tricky to get the info as organized as in "smart console".  Management API v1.8.
 
@@ -8,8 +8,8 @@ This project connects to management server and build a easily readable json outp
 Python objects area created to mimic ruleset objects (security zones, user groups, groups, etc.) and allow easy interaction with them.  For now only read-only but is should be easy make them writeable if you want.  Please dont expose this service without extra checks, designed to run in out-of-band network.
 
 Requires two files on same directory to keys (check CPRulesWeb.py).
-1- .webkey.txt  -> key to access the builtin webserver and get the info
-2- .cpkey.txt   -> key to access the checkpoint management server
+- .webkey.txt  -> key to access the builtin webserver and get the info
+- .cpkey.txt   -> key to access the checkpoint management server
 
 
 Example of API native CP rulebase query:
