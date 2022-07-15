@@ -7,6 +7,10 @@ This project connects to management server and build a easily readable json outp
 
 Python objects area created to mimic ruleset objects (security zones, user groups, groups, etc.) and allow easy interaction with them.  For now only read-only but is should be easy make them writeable if you want.  Please dont expose this service without extra checks, designed to run in out-of-band network.
 
+Requires two files on same directory to keys (check CPRulesWeb.py).
+1- .webkey.txt  -> key to access the builtin webserver and get the info
+2- .cpkey.txt   -> key to access the checkpoint management server
+
 
 Example of API native CP rulebase query:
 ```json
