@@ -3,7 +3,7 @@
 
 Checkpoint management API is a bit tricky to get the info organized as in "smart console".  Management API v1.8.
 
-This project connects to management server and build a easily readable json output from access rules inside witch are in specific rulebase. Useful to let devops team aware about the current rules.
+This project connects to management server and build a easily readable json output from access rules in specific rulebase. Useful to let devops team aware about the current rules on place.
 
 Python objects area created to mimic ruleset objects (security zones, user groups, groups, etc.) and allows easy interaction with them.  For now only read-only but is should be easy make them writeable if you want.  Please dont expose this service without extra checks, designed to run in out-of-band network.
 
